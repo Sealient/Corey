@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Corey 💜</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="parallax-wrapper">
+  <div class="parallax-layer layer-1"></div>
+  <div class="parallax-layer layer-2"></div>
+  <div class="parallax-layer layer-3"></div>
+</div>
+    <div class="stars"></div>
+    <div class="falling-hearts"></div>
+    <div class="container">
+        <header>
+            <div class="heart-container">
+                <div class="heart"></div>
+            </div>
+            <h1 class="title">Corey</h1>
+            <p class="subtitle">The girl who lights up my world</p>
+        </header>
+
+        <section class="car-animation">
+            <div class="road"></div>
+            <div class="mini-cooper">
+                <div class="car-name">Comet</div>
+            </div>
+        </section>
+
+        <section class="message-section">
+            <div class="message-card">
+                <h2>To the girl who loves purple...</h2>
+                <p>
+                    Corey, from the moment you came into my life, everything has been brighter.
+                    Your smile, your kindness, and your beautiful spirit make every day special.
+                </p>
+                <p>
+                    This little corner of the internet is dedicated to you - just like my heart.
+                </p>
+                <p class="love-signature">
+                    With all my love,<br>
+                    Seal
+                </p>
+            </div>
+        </section>
+
+        <section class="photo-memories">
+            <h2>Our Memories</h2>
+            <div class="memory-container">
+                <!-- You can add actual photos here -->
+                <div class="memory-placeholder" data-message="Our first date(Work in progress)">Photo 1</div>
+                <div class="memory-placeholder" data-message="Weekend getaway(Work in progress)">Photo 2</div>
+                <div class="memory-placeholder" data-message="That time we laughed for hours(Work in progress)">Photo 3</div>
+                <div class="memory-placeholder" data-message="When we watched the stars(Work in progress)">Photo 4</div>
+            </div>
+        </section>
+
+        <section class="reasons-section">
+            <h2>Things I Love About You</h2>
+            <div class="reasons-container"></div>
+            <button id="new-reason">Show Me Another Reason</button>
+        </section>
+        
+        <section class="interactive-section">
+    <h2>Interactive Love Note</h2>
+    <div class="note-container">
+        <div class="note-paper">
+            <textarea id="love-note" placeholder="Write a special message for Corey here..."></textarea>
+            <button id="save-note">Save Note</button>
+        </div>
+        <div class="saved-notes">
+            <h3>Saved Notes</h3>
+            <div id="notes-list"></div>
+        </div>
+    </div>
+</section>
+
+<section class="countdown-section">
+    <h2>Our Journey Together</h2>
+    <div class="counter-container">
+        <div class="counter">
+            <span id="days-together">0</span>
+            <span class="counter-label">Days</span>
+        </div>
+        <div class="counter">
+            <span id="hours-together">0</span>
+            <span class="counter-label">Hours</span>
+        </div>
+        <div class="counter">
+            <span id="minutes-together">0</span>
+            <span class="counter-label">Minutes</span>
+        </div>
+        <div class="counter">
+            <span id="seconds-together">0</span>
+            <span class="counter-label">Seconds</span>
+        </div>
+    </div>
+    <p class="time-message">That's how long we've been making memories together</p>
+</section>
+
+<section class="music-section">
+    <h2>Our Playlist</h2>
+    <div class="music-player">
+        <div class="song-info">Now Playing: Our Song</div>
+        <div class="player-controls">
+            <button id="play-button">▶️</button>
+            <button id="pause-button">⏸️</button>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+    </div>
+</section>
+
+<section class="quiz-section">
+  <h2>How Well Do You Know Corey?</h2>
+  <div class="quiz-container">
+    <div id="quiz-start">
+      <p>Test your knowledge about the amazing Corey!</p>
+      <button id="start-quiz">Start Quiz</button>
+    </div>
+    
+    <div id="quiz-questions" style="display: none;">
+      <div class="question-counter">Question <span id="current-question">1</span>/5</div>
+      <div id="question-text"></div>
+      <div class="options-container">
+        <button class="option-btn" data-index="0"></button>
+        <button class="option-btn" data-index="1"></button>
+        <button class="option-btn" data-index="2"></button>
+        <button class="option-btn" data-index="3"></button>
+      </div>
+    </div>
+    
+    <div id="quiz-results" style="display: none;">
+      <h3>Quiz Results</h3>
+      <div class="result-score">You scored: <span id="score">0</span>/5</div>
+      <div class="result-message"></div>
+      <button id="retake-quiz">Try Again</button>
+    </div>
+  </div>
+</section>
+
+        <footer>
+            <p class="footer-text">💜 Made with love for the most amazing girlfriend 💜</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
